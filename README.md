@@ -22,7 +22,7 @@ options
 
 * <code>skin</code> - any of: 'minimal', 'minimal/red', 'minimal/blue' ... and so on skins. Full list of available skins you can find on [iCheck#skins](http://fronteed.com/iCheck/#skins) page.
 
-* <code>selector</code> - jquery selector to apply widget. Default value is <code>input[type=checkbox], input[type=radio]</code>. Usefull when you need difrent styles for checkbox on same page:
+* <code>selector</code> - jquery selector to apply widget. Default value is <code>input[type=checkbox], input[type=radio]</code>. Useful when you need different styles for checkboxes on same page:
 
 <pre>
 $this->widget('ext.yii-icheck.ICheckWidget', array(
@@ -36,7 +36,7 @@ $this->widget('ext.yii-icheck.ICheckWidget', array(
 ));
 </pre>
 
-* <code>options</code> - array of opions for widget. Full list of available options you can find on [iCheck#usage](http://fronteed.com/iCheck/#usage) page.
+* <code>options</code> - array of opions for the widget. Full list of available options you can find on [iCheck#usage](http://fronteed.com/iCheck/#usage) page.
 
 <pre>
 $this->widget('ext.yii-icheck.ICheckWidget', array(
